@@ -1,0 +1,14 @@
+---
+Name: eform-kinderzuschlag
+---
+# Documents of the package (CMS slot on PDFMultiFormPage, kept pages, signature stamps and button masks in mm from
+# the top-left corner of the given page of that document). Override single values per document, e.g.:
+#
+# Kalakotra\EFormKinderzuschlag\Model\Submission:
+#   documents:
+#     antrag:
+#       stamps:
+#         main: { page: 3, x: 110.0, y: 203.0, width: 32.0 }
+#   replacement_font: 'fonts/LiberationSans-Regular.ttf'   # '' = disabled (then values are transliterated to ASCII)
+#
+# PDFMultiFormPage.SignaturePositionX/Y override the "main" stamp of KiZ 1 and KiZ 1-K.
